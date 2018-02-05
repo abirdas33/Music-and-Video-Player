@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/rt" android:title="Ringtone" android:icon="@drawable/ic_hand_graving_smartphone"/>
+    <item android:id="@+id/st" android:title="Sleep Timer" android:icon="@drawable/ic_chronometer"/>
+    <item android:id="@+id/store" android:title="Store" android:icon="@drawable/ic_store_outline"/>
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_wrench"/>
+    <item android:id="@+id/follow" android:title="Follow Us" android:icon="@drawable/ic_heart_black_button_symbol_of_interface_for_social_likes"/>
+    <item android:id="@+id/about" android:title="About" android:icon="@drawable/ic_group_of_people_in_a_formation"/>
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feedback2"
+    tools:context="com.example.asus.geet.RatingActivity">
+
+    <com.hsalf.smilerating.SmileRating
+        android:layout_width="match_parent"
+        android:id="@+id/smile_rating"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="199dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:background="@color/deeppurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smile_rating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/feedback"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:singleLine="true"
+        android:text="Contact us:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailandphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_alignEnd="@+id/feedback"
+        android:layout_below="@+id/contact"
+        android:layout_marginEnd="20dp"
+        android:text="Email: abirdas33@gmail.com \n Phone: 9706732997"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/emailandphone"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Follow us:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/facebookandinsta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_alignStart="@+id/follow"
+        android:layout_below="@+id/follow"
+        android:layout_marginStart="12dp"
+        android:text="Instagram: Abirdas@33 \n Facebook:Abir Das "
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

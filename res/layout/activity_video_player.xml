@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.geet.videoPlayer">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <ImageButton
+        android:id="@+id/playlistButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nxt"
+        android:layout_marginTop="21dp"
+        android:background="@null"
+        android:src="@drawable/playlist" />
+
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="26dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ic_right_arrow"
+        android:id="@+id/nxt" />
+
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nxt"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ic_left_arrow"
+        android:id="@+id/back"/>
+
+
+</RelativeLayout>
